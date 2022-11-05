@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C76723B-9DFA-40B3-9F53-952387BDA4D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>frm_login</RootNamespace>
+    <AssemblyName>frm_login</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="frm_aracEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_aracEkle.Designer.cs">
+      <DependentUpon>frm_aracEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_aracListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_aracListele.Designer.cs">
+      <DependentUpon>frm_aracListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_kasa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_kasa.Designer.cs">
+      <DependentUpon>frm_kasa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_login.Designer.cs">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_personelEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_personelEkle.Designer.cs">
+      <DependentUpon>frm_personelEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_personelListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_personelListele.Designer.cs">
+      <DependentUpon>frm_personelListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_raporlama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_raporlama.Designer.cs">
+      <DependentUpon>frm_raporlama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_sifreDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_sifreDegistir.Designer.cs">
+      <DependentUpon>frm_sifreDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_yeniKullanici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_yeniKullanici.Designer.cs">
+      <DependentUpon>frm_yeniKullanici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Veritabani.cs" />
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_aracEkle.resx">
+      <DependentUpon>frm_aracEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_aracListele.resx">
+      <DependentUpon>frm_aracListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_kasa.resx">
+      <DependentUpon>frm_kasa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_login.resx">
+      <DependentUpon>frm_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_personelEkle.resx">
+      <DependentUpon>frm_personelEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_personelListele.resx">
+      <DependentUpon>frm_personelListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_raporlama.resx">
+      <DependentUpon>frm_raporlama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_sifreDegistir.resx">
+      <DependentUpon>frm_sifreDegistir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_yeniKullanici.resx">
+      <DependentUpon>frm_yeniKullanici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginEkrani.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\turuncuCarpi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aracGiris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aracCikis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plaka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Personel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kasa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ayarlar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-car-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AracIslemleri.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yetkili.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personelEkleCikar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PersonelListele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

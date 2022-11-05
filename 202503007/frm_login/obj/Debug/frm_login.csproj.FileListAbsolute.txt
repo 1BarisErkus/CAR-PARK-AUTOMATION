@@ -1,0 +1,11 @@
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\bin\Debug\frm_login.exe.config
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\bin\Debug\frm_login.exe
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\bin\Debug\frm_login.pdb
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.csproj.AssemblyReference.cache
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.csproj.SuggestedBindingRedirects.cache
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.Form1.resources
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.Properties.Resources.resources
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.csproj.GenerateResource.cache
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.csproj.CoreCompileInputs.cache
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.exe
+C:\Users\baris\OneDrive\Masaüstü\CekirdekProje\202503007\frm_login\obj\Debug\frm_login.pdb
